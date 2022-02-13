@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.toss-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 24px;
+  width: 80%;
+  border-radius: 8px;
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  font-family: 'Roboto';
+  text-align: center;
+  color: #a35200;
+}
+.paragraph {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 8px;
+  font-family: 'Roboto';
+  color: #334155;
+}
+.toss-result-img {
+  width: 150px;
+  height: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .toss-result-img {
+    width: 250px;
+    height: 250px;
+  }
+  .toss-container {
+    margin: 64px;
+    width: 50%;
+  }
+}
+
+.button {
+  background-color: #e2a139;
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  color: #a35200;
+  cursor: pointer;
+  outline: none;
+}
+
+.counts-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.count {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 24px;
+  margin-right: 24px;
+}

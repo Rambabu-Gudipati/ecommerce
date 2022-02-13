@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e293b;
+}
+
+.heading {
+  color: #f0bb03;
+  font-family: 'Bree Serif';
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+.paragraph {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 24px;
+}
+.subscribe {
+  background-color: #ffffff;
+  text-align: center;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 96px;
+  }
+  .paragraph {
+    font-size: 16px;
+  }
+  .button {
+    font-size: 18px;
+  }
+}
